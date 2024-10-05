@@ -1,21 +1,17 @@
-/* .section {
-  height: 100vh;
-} */
-
+html,
 body {
-    font-family: Arial, sans-serif;
-    height: 300vh; /* Extend the height for scrolling */
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
+    background-color: #0E090D;
 }
 
-.section {
-    display: none; /* Hide all sections by default */
-    padding: 20px;
-    margin: 50px 0;
-    background-color: lightblue;
-    border: 1px solid #333;
+.main-Content {
+    display: flex;
 }
 
-.section.active {
-    display: block; /* Show only the active section */
+.myDetails {
+    flex: 1;
+    color: white;
+    text-align: center;
+    margin: auto;
 }
